@@ -8,8 +8,6 @@ export const TodoAdd = () => {
   const dispatch = useDispatch();
   const [input, setInput] = useState([]);
 
-
-
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(
