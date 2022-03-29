@@ -8,8 +8,8 @@ function App() {
     <div className="container justify-content-md-center p-2 mb-2 bg-light text-dark">
       <BrowserRouter>
         <Switch>
-          <Route path="/" exact component={() => <TodoAdd />} />
-          <Route path="/todoedit/:id" exact component={() => <TodoEdit />} />
+          <Route path="/" exact component={TodoAdd} />
+          <Route path="/todoedit/:id"  component={TodoEdit} />
         </Switch>
       </BrowserRouter>
     </div>
