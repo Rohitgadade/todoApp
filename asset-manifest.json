@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/todoapp/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/todoapp/static/js/main.f46de11e.chunk.js",
-    "main.js.map": "/todoapp/static/js/main.f46de11e.chunk.js.map",
+    "main.js": "/todoapp/static/js/main.4be7355e.chunk.js",
+    "main.js.map": "/todoapp/static/js/main.4be7355e.chunk.js.map",
     "runtime-main.js": "/todoapp/static/js/runtime-main.70e69279.js",
     "runtime-main.js.map": "/todoapp/static/js/runtime-main.70e69279.js.map",
     "static/js/2.573270ca.chunk.js": "/todoapp/static/js/2.573270ca.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.70e69279.js",
     "static/js/2.573270ca.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.f46de11e.chunk.js"
+    "static/js/main.4be7355e.chunk.js"
   ]
 }
