@@ -11,11 +11,11 @@ export const TodoEdit = () => {
   // console.log("id,", id);
   const currTodo = data.find((curr) => curr.id === parseInt(id));
   // console.log("currTodo", currTodo);
-  useEffect(()=>{
-    if(currTodo){
+  useEffect(() => {
+    if (currTodo) {
       setEditName(currTodo.todos)
     }
-  },[currTodo])
+  }, [currTodo])
 
   return (
     <div>
@@ -42,14 +42,14 @@ export const TodoEdit = () => {
 
                       <div className="col col-lg-4 btn-group">
                         <div className="col col-lg-4">
-                          {editname === "" ? <Link to="/">
+                          {editname === "" ? <Link to="/todoapp">
                             <button
                               type="button"
                               className="btn btn-info"
                             >
                               Update
                             </button>
-                          </Link> : <Link to="/">
+                          </Link> : <Link to="/todoapp">
                             <button
                               type="button"
                               className="btn btn-info"
@@ -68,7 +68,7 @@ export const TodoEdit = () => {
                           </Link>}
                         </div>
                         <div className="col col-lg-2">
-                          <Link to="/">
+                          <Link to="/todoapp">
                             <button type="button" className="btn btn-dark">
                               Cancel
                             </button>
